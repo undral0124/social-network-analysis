@@ -1,0 +1,15 @@
+scripts/setup.sh
+
+#!/bin/bash
+# OpenGL болон шаардлагатай сангуудыг суулгана
+sudo apt-get update
+sudo apt-get install -y build-essential cmake libglfw3-dev libglew-dev libglm-dev
+scripts/run.sh
+
+#!/bin/bash
+# CMake ашиглан төсөл бүрдүүлж ажиллуулна
+mkdir -p build
+cd build
+cmake ..
+make
+./SierpinskiPyramid
