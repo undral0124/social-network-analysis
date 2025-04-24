@@ -19,9 +19,3 @@
 Шинжилгээний скриптийг ажиллуулах:
 ```bash
    python3 scripts/analyze_network.py
-
-
-
-
-
-
