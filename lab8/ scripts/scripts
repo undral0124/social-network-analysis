@@ -1,6 +1,0 @@
-Агуулга:
-
-preprocess.py – Зургийг унших, grayscale болгох, дунджаар шүүх функцүүд.
-segment.py – Оролтын дүрс дээр segmentation алгоритмууд (Watershed, Morphological operations).
-visualize.py – Сегментлэгдсэн дүрсийг дүрслэх функц, маск харагдуулах plot.
-utils.py – Давтагддаг функцүүд, postprocessing, маск хадгалах.
