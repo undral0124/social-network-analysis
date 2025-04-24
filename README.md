@@ -21,7 +21,7 @@
    ```bash
    python3 scripts/analyze_network.py
 
-Өгөгдөл нэмэх ба удирдах
+## Өгөгдөл нэмэх ба удирдах
 
 1. Өгөгдлийн файлуудыг байршуулах
    CSV гэх мэт өгөгдлийг data/raw/ фолдерт нэмнэ:
@@ -41,7 +41,7 @@
    ```bash
    import pandas as pd
    
-   url = "https://raw.githubusercontent.com/your-dataset-         source/edges.csv"
+   url = "https://raw.githubusercontent.com/your-dataset-source/edges.csv"
    data = pd.read_csv(url)
    data.to_csv("data/raw/edges.csv", index=False)
 
