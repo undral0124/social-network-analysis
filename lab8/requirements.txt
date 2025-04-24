@@ -1,0 +1,6 @@
+# Python-ын хамааралтай сангууд
+
+import networkx as nx  # Сүлжээний граф үүсгэх, боловсруулахад зориулсан NetworkX санг импортлох
+import pandas as pd  # Өгөгдлийг хүснэгтэн хэлбэрээр боловсруулахад зориулсан Pandas санг импортлох
+import matplotlib.pyplot as plt  # График дүрслэл хийх Matplotlib сангийн pyplot модулийг импортлох
+import numpy as np  # Тоон өгөгдөл боловсруулахад зориулсан NumPy санг импортлох
